@@ -15,7 +15,7 @@ spec:
         app: web-app
     spec:
       containers:
-      - name: prawin7
-        image: mainbuild:$BUILD_NUMBER
+      - name: mainbuild
+        image: mainbuild:13
         ports:
         - containerPort: 8080
